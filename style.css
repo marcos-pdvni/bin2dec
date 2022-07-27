@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  background-color: #272727;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  background: #63adf2;
+  background: linear-gradient(to right, #63adf2 0%, #6393c1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+.box {
+  width: 50%;
+  padding: 5%;
+  border: 1px solid #63adf2;
+  border-radius: 0.5rem;
+  text-align: center;
+  height: auto;
+}
+.input {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.input input {
+  width: 100%;
+  padding: 1rem;
+  background: transparent;
+  border: 1px solid #63adf2;
+  border-radius: 0.5rem;
+  outline: none;
+  margin-right: 5px;
+  color: #63adf2;
+}
+.input button {
+  padding: 2%;
+  border: none;
+  background-color: #6393c1;
+  color: #fff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+.result {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.result input {
+  width: 100%;
+  padding: 1rem;
+  background: transparent;
+  border: 1px solid #63adf2;
+  border-radius: 0.5rem;
+  outline: none;
+  margin-right: 5px;
+  color: #63adf2;
+}
+
+@media screen and (max-width: 900px) {
+  .box {
+    width: 80%;
+  }
+}
